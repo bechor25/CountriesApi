@@ -7,7 +7,7 @@ $(() => {
             for (const country of success) {
                 createCard(country);
             }
-            response.send(success);
+
         }, err => {
             alert(err.massage);
         });
@@ -28,11 +28,11 @@ $(() => {
     <img src="${callback.flag}" class="card-img-top" alt="...">
     <div class="card-body">
     <p class="card-text" id="cssName">${callback.name}</p>
-    <p class="card-text"><span style="color:cornflowerblue;">Domain</span> : ${callback.topLevelDomain}</p>
-    <p class="card-text"><span style="color:cornflowerblue;">Capital</span> :${callback.capital}</p>
-    <p class="card-text"><span style="color:cornflowerblue;">Code</span> :${callback.currencies[0].code}</p>
-    <p class="card-text"><span style="color:cornflowerblue;">Name</span> :${callback.currencies[0].name}</p>
-    <p class="card-text"><span style="color:cornflowerblue;">Symbol</span> :${callback.currencies[0].symbol}</p>
+    <p class="card-text"><span style="color:cornflowerblue;">Domain:</span>  ${callback.topLevelDomain}</p>
+    <p class="card-text"><span style="color:cornflowerblue;">Capital:</span> ${callback.capital}</p>
+    <p class="card-text"><span style="color:cornflowerblue;">Code:</span> ${callback.currencies[0].code}</p>
+    <p class="card-text"><span style="color:cornflowerblue;">Name:</span> ${callback.currencies[0].name}</p>
+    <p class="card-text"><span style="color:cornflowerblue;">Symbol:</span> ${callback.currencies[0].symbol}</p>
     </div>
     </div>
         `;
