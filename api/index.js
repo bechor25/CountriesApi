@@ -7,6 +7,7 @@ $(() => {
             for (const country of success) {
                 createCard(country);
             }
+            response.send(success);
         }, err => {
             alert(err.massage);
         });
