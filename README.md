@@ -1,5 +1,5 @@
 # CountriesApi
-User UI:
+UI:
 - Search all countries
 - Search for a specific country
 
