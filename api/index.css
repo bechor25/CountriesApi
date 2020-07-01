@@ -1,0 +1,49 @@
+#card {
+    margin: 5px;
+    height: auto;
+    opacity: 90%;
+}
+
+#searchCountries {
+    align-content: center;
+}
+
+img {
+    height: 100px;
+    width: 50%;
+}
+
+p {
+    margin: 0;
+    font-weight: bold;
+    display: list-item;
+}
+
+#cssName {
+    display: block;
+    color: yellowgreen;
+    font-size: 19px;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+body {
+    background-image: url("https://d15djgxczo4v72.cloudfront.net/s3fs-public/styles/inner_page_header/public/legacy_files/shutterstock_63439831.jpg?itok=fG57OPwZ");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 72px;
+    font-family: 'Oswald', sans-serif;
+    color: #4285F4;
+}
+
+#border {
+    border: 2px solid;
+    opacity: 80%;
+    background-color: white;
+    margin: 0;
+}
