@@ -1,7 +1,6 @@
 "use strict";
 $(() => {
-    // ----- get all countries ------- //
-    //--- print all countries to html --- //
+
     $("#allCountries").click(() => {
         getAjax("https://restcountries.eu/rest/v2/all", success => {
             for (const country of success) {
@@ -43,7 +42,7 @@ $(() => {
         const val = $("#searchCountries").val();
         $(".row").html("");
         if (val.length === 0 || !isNaN(val)) {
-            alert("please enter value / proper value .")
+            alert("please enter country")
         } else {
             getAjax("https://restcountries.eu/rest/v2/name/" + val, response => {
                 for (const country of response) {

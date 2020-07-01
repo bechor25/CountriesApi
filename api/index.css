@@ -21,10 +21,10 @@ p {
 
 #cssName {
     display: block;
-    color: yellowgreen;
+    color: rgb(39, 6, 128);
     font-size: 19px;
     font-weight: bold;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(253, 6, 6);
 }
 
 body {
@@ -42,7 +42,6 @@ h1 {
 }
 
 #border {
-    border: 2px solid;
     opacity: 80%;
     background-color: white;
     margin: 0;
